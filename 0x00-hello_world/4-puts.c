@@ -2,7 +2,7 @@
 /**
  * main - This is a discription
  *
- * Resturn: a number 0 if succesful
+ * Return: a number 0 if succesful
  */
 int main(void)
 {
