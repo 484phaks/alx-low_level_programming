@@ -1,7 +1,5 @@
 #include <stdlib.h>
-
 #include <time.h>
-
 #include <stdio.h>
 
 /* more headers goes there */
@@ -15,10 +13,7 @@
 int main(void)
 
 {
-
 	int n, LastDigit;
-
-
 
 	srand(time(0));
 
