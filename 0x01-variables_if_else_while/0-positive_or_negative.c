@@ -5,30 +5,17 @@
 #include <stdio.h>
 
 /* more headers goes there */
-
-
-
 /**
-
- * main - function
-
- *
-
- * Return: 0 if successful
-
- *
-
- */
-
-
-
+* main - function
+*
+*
+* Return: 0 if successful
+*
+*/
 int main(void)
-
 {
 
 	int n;
-
-
 
 	srand(time(0));
 
