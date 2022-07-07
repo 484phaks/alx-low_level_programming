@@ -1,6 +1,12 @@
-#ifndef MAIN_H
-#define MAIN_H
+#include "main.h"
 
-int _putchar(char c);
+/**
+* main - calls other fucntions
+*
+* returns: 0
+*/
+int main(void)
 
-#endif
+	print_putchar();
+	return (0);
+}
