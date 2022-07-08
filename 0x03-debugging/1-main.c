@@ -13,7 +13,7 @@ int main(void)
 
 	printf("Infinite loop incoming :(\n");
 
-	i = 98;
+	i = 0;
 
 	/**
 
