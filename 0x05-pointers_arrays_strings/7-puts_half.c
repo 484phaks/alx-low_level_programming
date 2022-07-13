@@ -5,17 +5,14 @@
 * @str: String to be cut in half
 * Return: Always 0.
 */
-
 void puts_half(char *str)
 
 {
 	int i, j;
 	i = 0;
-
 	while (str[i] != '\0')
 
 		i++;
-
 	i--;
 
 	if (i % 2 == 0)
