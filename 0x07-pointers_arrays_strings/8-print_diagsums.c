@@ -2,21 +2,30 @@
 #include <stdio.h>
 
 /**
-* print_diagsums -  prints sums
-* @a: a pointer
-* @size: size
+* print_diagsums 
+* @a: Multidimensional array
+* @size: Size of array
+* Return: Always 0.
 */
 
 void print_diagsums(int *a, int size)
 
 {
-	int i, sum1 = 0, sum2 = 0;
+	int i, sum, sum2;
+
+	sum = sum2 = 0;
+
 	for (i = 0; i < size; i++)
 
 	{
-		sum1 += *(a + (size * i + i));
-		sum2 += *(a + (size * i + size - 1 - i));
+
+		sum += a[(size * i) + i];
 	}
-	printf("%d, ", sum1);
-	printf("%d\n", sum2);
+
+	for (i = 0; i < size; i++)
+	{
+		sum2 += a[(i * size) + size - (i + 1)];
+	}
+
+	printf("%d, %d\n", sum, sum2);
 }
