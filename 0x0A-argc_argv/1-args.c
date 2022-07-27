@@ -1,17 +1,41 @@
 #include <stdio.h>
 
-/*
- * main- write a program that prints the number of passed arguments into it 
- * @args: this is the argument cout
- * @argv: this is the argument vector 
- *
- * Return: this return to 0
- *
- * *//
+/**
 
-int  main(int args, char *argv[])
+ * main - Prints the number of arguments passed into main
+
+ * @argc: Number of command line arguments
+
+ * @argv: Array name
+
+ * Return: 0
+
+ */
+
+
+
+int main(int argc, char *argv[])
+
 {
-	printf("%d\n", args -1);
-	(void)argv:
-	return (0)
+
+	int i;
+	if (argc == 1)
+		printf("%d\n", argc - 1);
+	else
+	{
+
+		for (i = 0; *argv; i++, argv++)
+
+			;
+
+
+
+		printf("%d\n", i - 1);
+
+	}
+
+
+
+	return (0);
+
 }
