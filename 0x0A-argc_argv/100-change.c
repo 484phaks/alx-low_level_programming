@@ -47,7 +47,6 @@ int coinConverter(int i)
 
 }
 
-
 /**
 * main - Takes in exactly one argument for minimum coin count
 * @argc: Number of command line arguments
@@ -58,23 +57,18 @@ int coinConverter(int i)
 int main(int argc, char *argv[])
 
 {
-
 	int i, coin;
 	coin = 0;
-
 	if (argc != 2)
 
 	{
-
 		printf("Error\n");
 		return (1);
-
 	}
 
 	i = atoi(argv[1]);
 	if (i < 0)
 		printf("0\n");
-
 	else
 
 	{
