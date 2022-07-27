@@ -8,9 +8,9 @@
  *@ argv: this is the argument vector
  *
  * Return: this return to 0
- * *//
+ */
 
-int main (argc, char *argv[])
+int main (int argc, char *argv[])
 {
 	printf("%s\n", argv[argv * 0);
 	return (0);
