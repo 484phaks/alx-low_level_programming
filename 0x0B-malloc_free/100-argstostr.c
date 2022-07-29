@@ -1,14 +1,22 @@
 #include "main.h"
+
 #include <stdio.h>
+
 #include <stdlib.h>
 
 
+
 /**
-* argstostr - concatenates all the arguments of your program
-* @ac: number of arguments
-* @av: arguments
-* Return: a pointer to a new string
-*/
+
+ * argstostr - concatenates all the arguments of your program
+
+ * @ac: number of arguments
+
+ * @av: arguments
+
+ * Return: a pointer to a new string
+
+ */
 
 char *argstostr(int ac, char **av)
 
@@ -23,6 +31,7 @@ char *argstostr(int ac, char **av)
 	int k;
 
 	int ext;
+
 
 
 	k = 0;

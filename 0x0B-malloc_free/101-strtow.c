@@ -1,4 +1,5 @@
 #include <stdlib.h>
+
 #include "main.h"
 
 /**
@@ -7,6 +8,8 @@
 *
 * Return: number of words
 */
+
+
 
 int count_word(char *s)
 
@@ -115,7 +118,6 @@ char **strtow(char *str)
 			start = i;
 
 	}
-
 
 	matrix[k] = NULL;
 
