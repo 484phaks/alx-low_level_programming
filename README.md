@@ -1,1 +1,1 @@
-debugging task 
+more functions nested loops
