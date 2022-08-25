@@ -14,7 +14,6 @@ void free_listp(listp_t **head)
 	listp_t *curr;
 
 	if (head != NULL)
-
 	{
 		curr = *head;
 		while ((temp = curr) != NULL)
@@ -26,7 +25,6 @@ void free_listp(listp_t **head)
 		*head = NULL;
 	}
 }
-
 /**
  * print_listint_safe - prints a linked list.
  * @head: head of a list.
@@ -42,6 +40,7 @@ size_t print_listint_safe(const listint_t *head)
 	listp_t *hptr, *new, *add;
 
 	hptr = NULL;
+
 	while (head != NULL)
 
 	{
@@ -63,8 +62,7 @@ size_t print_listint_safe(const listint_t *head)
 
 			{
 				printf("-> [%p] %d\n", (void *)head, head->n);
-				free_listp(&hpt);
-
+				free_listp(&hptr);
 				return (nnodes);
 			}
 		}
